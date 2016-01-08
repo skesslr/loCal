@@ -1,0 +1,88 @@
+/**
+ * styles.css
+ *
+ * Computer Science 50
+ * Final Project
+ *
+ * Global CSS.
+ */
+
+body
+{
+    background-color: #c4d4d4;
+    padding-top: 150px;
+}
+
+.container
+{
+    /* center contents */
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-family: "Trebuchet MS";
+}
+
+.table 
+{ 
+    width: 100%;
+    text-align: center;
+    background-color: gray;
+    border-collapse: collapse; 
+}
+.table th 
+{ 
+    text-align: center;
+    background-color: gray;
+    color: white; 
+}
+.table td
+{
+    background-color:#D3D3D3;
+}
+
+.table-bordered
+{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+#title
+{
+    /* surround with whitespace */
+    font-size: 30px;
+    font-weight: bold;
+    color: #336699;
+    font-family: "Trebuchet MS";
+}
+
+#top
+{
+    /* surround with whitespace */
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+#middle .form-control
+{
+    /* center form controls */
+    display: inline-block;
+
+    /* override Bootstrap's 100% width for form controls */
+    width: auto;
+}
+
+#bottom
+{
+    /* shrink bottom's font size */
+    font-size: smaller;
+
+    /* surround with whitespace */
+    margin: 20px;
+    margin-top: 100px;
+}
+
+#dropdowns
+{
+    margin-top: 20px;
+}
