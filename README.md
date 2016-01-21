@@ -1,5 +1,5 @@
 #loCal
-Searchable Google Calendar Database by Sam Kessler, Catie Rose Pate
+Searchable Google Calendar Database by Sam Kessler and Catie Rose Pate
 
 [Illustrated Instructions] (https://github.com/skesslr/loCal/blob/master/documentation.pdf)
 
