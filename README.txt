@@ -1,6 +1,6 @@
-<head>
 loCal
-</head>
+Searchable Google Calendar Database
+Authors: Sam Kessler, Catie Rose Pate
 
 The program for loCal uses a combination of PHP, HTML, JavaScript and SQL. The files are organized with MVC--the public folder generally handles controllers, views takes care of the view and layout, and the SQL database in finalProject.sql handles models needed.
 
