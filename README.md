@@ -1,7 +1,7 @@
 #loCal
 Searchable Google Calendar Database by Sam Kessler, Catie Rose Pate
 
-[Illustrated Instructions] (https://github.com/skesslr/loCal/blob/master/documentation.pdf)*
+[Illustrated Instructions] (https://github.com/skesslr/loCal/blob/master/documentation.pdf)
 
 ###Overview
 The program for loCal uses a combination of PHP, HTML, JavaScript and SQL. The files are organized with MVC--the public folder generally handles controllers, views takes care of the view and layout, and the SQL database in finalProject.sql handles models needed.
