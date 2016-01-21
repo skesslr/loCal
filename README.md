@@ -1,7 +1,14 @@
+#loCal
+Searchable Google Calendar Database by Sam Kessler and Catie Rose Pate
+
+[Illustrated Instructions] (https://github.com/skesslr/loCal/blob/master/documentation.pdf)
+
+###Overview
 The program for loCal uses a combination of PHP, HTML, JavaScript and SQL. The files are organized with MVC--the public folder generally handles controllers, views takes care of the view and layout, and the SQL database in finalProject.sql handles models needed.
 
 loCal was created as a project for Harvard’s CS50 course, and uses the CS50-provided library in the vendor folder.
 
+### How it Works
 The includes folder contains config.php and helpers.php. Includes comes from CS50. The files in includes are both referenced throughout the code. The config file is referenced at the top of the public folder’s files. It redirects users who aren't logged in to the Log In page and sets up the website so it can access the CS50 code inside vendor. The helpers file contains a series of functions that are used throughout the program: apologize sends out apology messages that will be displayed in an apology.php file from the views folder; dump is used for error/debugging purposes, and logs errors from the arguments into dump.php in the views folder; logout destroys a session after it ends; redirect takes users to another URL; render passes values saved and displays the view between the header and footer. The vendor folder, the CS50 php file contains functions for initializing the CS50 library at a path and a function that handles SQL queries.
 
 Inside public are files that control how the website interacts with the user--they’re largely written in php. The css folder, though, has a bootstrap file for using bootstrap components, and a styles css file to control layout. The styles sheet is linked in header so it can be used in the other web pages. The files in fonts allow the code to access other fonts than basic ones. The file image contains a png file of the loCal logo. The JS folder contains files related to JavaScript and JQuery for both the website and Bootstrap.
